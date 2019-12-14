@@ -1,0 +1,334 @@
+body {
+  background-color: #e8e8e8;
+  background-image: url(background.svg);
+  background-size: cover;
+}
+
+.title-mehdi h2 {
+  padding-left: 50px;
+}
+
+h1 {
+  color: #575F7D;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 'Black'
+  font-size: 32px;
+  font-weight: 900;
+  margin-top: 50px;
+}
+
+p {
+  color: #575f7d;
+  font-family: 'Lora';
+}
+
+a {
+  text-decoration: none
+}
+
+h2 {
+  color: #575F7D;
+  font-weight: bolder;
+}
+
+a:hover {
+  opacity: 0.3;
+}
+
+h4 {
+  color: #575F7D;
+  font-weight: lighter;
+}
+
+.container-curriculum {
+  width: 600px;
+  margin: auto;
+}
+
+#logo-uber {
+  position: relative;
+  bottom: 17px;
+  left: 50px;
+  float: right;
+  border-radius: 50%;
+}
+
+
+
+.card-white {
+  background-color: white;
+  padding: 1px 30px 30px 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+  border-left: 4px solid #71bf44;
+}
+
+.card-white > h4 {
+  padding-top: 20px;
+}
+
+.circle-image {
+  border-radius: 50%;
+}
+
+
+.btn-rose {
+  background-color: #71bf44;
+  color: white;
+  padding: 16px;
+  line-height: 50px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+:root {
+  --gutter: 20px;
+}
+
+.app {
+  padding: var(--gutter) 0;
+  display: grid;
+  grid-gap: var(--gutter) 0;
+  grid-template-columns: var(--gutter) 1fr var(--gutter);
+  align-content: start;
+}
+
+.app > * {
+  grid-column: 2 / -2;
+}
+
+.app > .full {
+  grid-column: 1 / -1;
+}
+
+.cards {
+  display: grid;
+  grid-gap: calc(var(--gutter) / 2);
+  grid-template-columns: 10px repeat(6, calc(50% - var(--gutter) * 2)) 10px;
+  grid-template-rows: minmax(150px, 1fr);
+
+  overflow: scroll;
+  scroll-snap-type: x proximity;
+  padding-bottom: calc(.75 * var(--gutter));
+  margin-bottom: calc(-.5 * var(--gutter));
+}
+
+.cards:before,
+.cards:after {
+  content: '';
+}
+
+/* Hide scrollbar */
+.hide-scroll {
+  overflow-y: hidden;
+  margin-bottom: calc(-.1 * var(--gutter));
+}
+
+.app ul {
+  list-style: none;
+  width: 900px;
+  height: 400px;
+  padding-left: 0px;
+}
+
+.card-content {
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 0px 10px 0 10px;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+
+/*.card-content:last-child {
+  margin-right: 400px;
+}*/
+
+#description-cubyn {
+  position: relative;
+  top: 20px;
+}
+
+#description-clovis {
+  position: relative;
+  top: 20px;
+}
+
+#description-cgi {
+  position: relative;
+  top: -25px;
+}
+
+#description-axway {
+  position: relative;
+  top: 20px;
+}
+
+#clovis-logo {
+  position: relative;
+  top: 10px;
+}
+
+
+#cgi-logo {
+  position: relative;
+  top: -24px;
+}
+
+#job-title-cgi {
+  position: relative;
+  top: -50px;
+}
+
+#job-date-cgi {
+  position: relative;
+  top: -50px;
+}
+
+.job-date {
+  font-size: 10px;
+  color: #55555;
+}
+
+/*#test-0 {
+  position: relative;
+  left: -270px;
+}
+
+#test-1 {
+  position: relative;
+  left: -230px;
+}
+
+#test-2 {
+  position: relative;
+  left: -230px;
+}
+
+#test-3 {
+  position: relative;
+  left: -230px;
+}
+
+#test-4 {
+  position: relative;
+  left: -230px;
+}
+*/
+
+#test-5 img {
+  height: 51vh;
+  margin-left: -11px;
+  width: 106%;
+  border-radius: 4px;
+}
+
+.educational {
+  background-color: white;
+  padding: 1px 30px 30px 30px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  list-style: none;
+  border-left: 4px solid #71bf44;
+}
+
+.educational > h4 {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.school-logo {
+  position: relative;
+  top: 65px;
+  right: 60px;
+}
+
+.school-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.calendar i {
+  font-size: 10px;
+}
+
+.calendar {
+  font-size: 10px;
+  font-weight: lighter;
+  position: relative;
+  top: 7px;
+  right: -70px;
+}
+
+.location i {
+  font-size: 10px;
+
+}
+
+.location {
+  font-size: 10px;
+  font-weight: lighter;
+  position: relative;
+  top: 7px;
+}
+
+#calendar-tbs {
+  font-size: 10px;
+  font-weight: lighter;
+  position: relative;
+  top: 5px;
+  right: -20px;
+}
+
+#marker-tbs {
+  font-size: 10px;
+  font-weight: lighter;
+  position: relative;
+  top: 5px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 48px;
+  opacity: 0.7;
+  transition: 0.5s
+}
+
+.background-cv {
+  background : url(https://cdn.kickoffpages.com/assets/119743/i9ghwobp9m5z8f782mtc/undraw_going_up_ttm5.svg);
+  background-size: cover;
+  object-fit: scale-down;
+}
+
+.job-date {
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
