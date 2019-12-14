@@ -5,7 +5,11 @@ body {
 }
 
 .title-mehdi h2 {
-  padding-left: 50px;
+  padding-left: 100px;
+}
+
+.photo-mehdi img {
+  margin-left: 100px;
 }
 
 h1 {
@@ -45,12 +49,14 @@ h4 {
   margin: auto;
 }
 
-#logo-uber {
+#logo-webedia {
   position: relative;
   bottom: 17px;
   left: 50px;
   float: right;
   border-radius: 50%;
+  background-color: grey;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.1);
 }
 
 
@@ -62,7 +68,7 @@ h4 {
   border-radius: 4px;
   margin: 20px 0px;
   text-align: center;
-  border-left: 4px solid #71bf44;
+  border-left: 4px solid #FFCD00;
 }
 
 .card-white > h4 {
@@ -75,7 +81,7 @@ h4 {
 
 
 .btn-rose {
-  background-color: #71bf44;
+  background-color: #FFCD00;
   color: white;
   padding: 16px;
   line-height: 50px;
@@ -232,7 +238,7 @@ h4 {
   border-radius: 4px;
   margin: 20px 0px;
   list-style: none;
-  border-left: 4px solid #71bf44;
+  border-left: 4px solid #FFCD00;
 }
 
 .educational > h4 {
